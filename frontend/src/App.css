@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111827;
+  color: white;
+}
+
+.dashboard {
+  padding: 30px;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #9ca3af;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1f2937;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #60a5fa;
+}
+
+.card p {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.section {
+  background: #1f2937;
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 10px;
+}table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #374151;
+}
+
+th {
+  color: #60a5fa;
+}
